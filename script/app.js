@@ -36,7 +36,35 @@ searchButton.addEventListener('click', () => {
    console.log(searchText); // Выводим значение в консоль
  });
 
-
+ const searchInputs = document.querySelectorAll('.input__search');
+ const searchButtons = document.querySelectorAll('.btn__search');
+ 
+ searchButtons.forEach(searchButton => {
+   searchButton.addEventListener('click', (e) => {
+     e.preventDefault();
+     const searchText = searchInputs[0].value;
+     
+     // Формируем URL-адрес для запроса на основе значения поисковой строки
+     const url = `https://api.example.com/search?q=${encodeURIComponent(searchText)}`;
+     
+     // Формируем объект параметров для запроса
+     const options = {
+       method: 'GET', // Метод запроса
+       headers: {
+         'Content-Type': 'application/json' // Заголовок запроса
+       }
+     };
+     
+     // Отправляем запрос с помощью метода fetch() и обрабатываем ответ
+     fetch(url, options)
+       .then(response => response.json())
+       .then(data => {
+         console.log(data); // Выводим полученные данные в консоль
+         // Добавляем код для обработки полученных данных
+       })
+       .catch(error => console.error(error)); // Обрабатываем ошибки
+   });
+ });
 
 
 
