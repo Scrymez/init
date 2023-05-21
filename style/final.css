@@ -1,0 +1,108 @@
+/*RECET CCS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body{
+    background-color: #FFE9C9;
+    width: 390px;
+    height: 844px;
+}
+.container {
+    margin: 0;
+
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 196px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.title{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 103.5px;
+    margin-right: 103.5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #24BF0B;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 83px;
+    margin-right: 83px;
+    margin-bottom: 438px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #757575;
+}
+
+
+
+.loader {
+    border: 12px solid #f3f3f3; /* серый цвет для рамки */
+    border-top: 12px solid #3498db; /* синий цвет для верхней границы рамки */
+    border-radius: 50%; /* круглый вид */
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite; /* используется анимация "spin" со временем продолжительности 2сек и бесконечным повторением */
+  }
+  
+  @keyframes ani {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } /* элемент совершает полный оборот */
+  }

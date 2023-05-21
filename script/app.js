@@ -2,9 +2,9 @@
 //navigation
 const nav = document.querySelectorAll(".li");
 const active = document.querySelector(".active")
-console.log(nav)
+
 nav.forEach((item,index)=>{
-   console.log(index,item)
+   
    item.addEventListener('click',()=>{
       nav.forEach(elem => {
          elem.classList.remove('active')
@@ -16,13 +16,25 @@ nav.forEach((item,index)=>{
 //like
 const like = document.querySelectorAll(".like-active");
 const tap = document.querySelector(".active")
-console.log(like)
+
 like.forEach((item,index)=>{
-   console.log(index,item)
+   
    item.addEventListener('click',()=>{
       item.classList.toggle('link__like_active')
    })
 })
+
+
+// <input type="text" id="searchInput">
+// <button id="searchButton">Поиск</button>
+
+const searchInput = document.querySelector('.input__search');
+const searchButton = document.querySelector('.btn__search');
+
+searchButton.addEventListener('click', () => {
+   const searchText = searchInput.value;
+   console.log(searchText); // Выводим значение в консоль
+ });
 
 
 

@@ -135,11 +135,12 @@ body {
 .adress__change{
    color: #24BF0B;
    font-family: 'Inter';
-   font-weight: 600;
+   font-weight: 500;
    font-size: 13px;
    line-height: 18px;
 
    margin: 10.5px 10px 0px 0px;
+   
 }
 
 .setting{
@@ -596,7 +597,9 @@ border-radius: 100px;
 padding: 12px 118px;
 
 }
-
+.a{
+   text-decoration: none;
+}
 .plays{
    margin-left: 16px;
    margin-right: 16px;
