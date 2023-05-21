@@ -100,6 +100,14 @@ body {
    top: 1px
 }
 
+.tel{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+}
+
+
 /* NAVIGATION */
 .ul{
    padding-top: 7px;
@@ -161,9 +169,27 @@ body {
    width: 100px;
    height: 100px;
    border-radius: 12px;
-
-
 }
+
+.btn__prod{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 18px;
+   color: #24BF0B;
+   text-align: center;
+
+   background: #EBD7B9;
+   border: 1px solid #CEBEA5;
+   border-radius: 16px;
+   padding: 5px 20px;
+   position: absolute;
+   right: 8px;
+   bottom: 22px;
+   cursor: pointer;
+}
+
 
 .basket__ico{
    scale: 1.8;
@@ -220,11 +246,15 @@ body {
    left: 230px;
    cursor: pointer;
    z-index: 1;
+   max-width: 100px;
+   max-height: 100px;
 }
 .back__add{
    position: relative;
    top: -74px;
    left: 200.5px;
+   max-width: 100px;
+   max-height: 100px;
 }
 
 .link__like_active{

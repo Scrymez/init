@@ -15,12 +15,16 @@ nav.forEach((item,index)=>{
 
 //like
 const like = document.querySelectorAll(".like-active");
-const tap = document.querySelector(".active")
+const tap = document.querySelector(".active");
+const cartCount = document.querySelector(".cart-count")
 
 like.forEach((item,index)=>{
    
    item.addEventListener('click',()=>{
       item.classList.toggle('link__like_active')
+      const linkLike = document.querySelectorAll(".link__like_active");
+      cartCount.innerHTML = `${linkLike.length}`
+      console.log(linkLike)
    })
 })//like end
 
