@@ -11,7 +11,7 @@ nav.forEach((item,index)=>{
       })
       item.classList.add('active')
    })
-})
+})//navigation end
 
 //like
 const like = document.querySelectorAll(".like-active");
@@ -22,25 +22,16 @@ like.forEach((item,index)=>{
    item.addEventListener('click',()=>{
       item.classList.toggle('link__like_active')
    })
-})
+})//like end
 
 
-// <input type="text" id="searchInput">
-// <button id="searchButton">Поиск</button>
 
-const searchInput = document.querySelector('.input__search');
-const searchButton = document.querySelector('.btn__search');
-
-searchButton.addEventListener('click', () => {
-   const searchText = searchInput.value;
-   console.log(searchText); // Выводим значение в консоль
- });
-
+   // search
  const searchInputs = document.querySelectorAll('.input__search');
  const searchButtons = document.querySelectorAll('.btn__search');
  
  searchButtons.forEach(searchButton => {
-   searchButton.addEventListener('click', (e) => {
+   btn__search.addEventListener('click', (e) => {
      e.preventDefault();
      const searchText = searchInputs[0].value;
      
@@ -66,5 +57,51 @@ searchButton.addEventListener('click', () => {
    });
  });
 
+//  search end
 
+// счетчик 
 
+class Cart {
+   constructor() {
+     this.count = 0; // начальное значение счетчика
+     this.cartCountElement = document.querySelectorALL('.cart-count'); // получаем элемент, в котором будет отображаться счетчик
+   }
+ 
+   addToCart() {
+     this.count++; // увеличиваем значение счетчика на 1
+     this.updateCartCount(); // обновляем значение счетчика на странице
+   }
+ 
+   removeFromCart() {
+     this.count--; // уменьшаем значение счетчика на 1
+     this.updateCartCount(); // обновляем значение счетчика на странице
+   }
+ 
+   updateCartCount() {
+     this.cartCountElement.innerText = this.count; // обновляем значение на странице
+   }
+ }
+ 
+ const cart = new Cart();
+ 
+ // получаем кнопку на странице
+ const button = document.querySelector('.add-to-cart');
+ 
+ // добавляем обработчик события "click" на кнопку
+ button.addEventListener('click', function() {
+   if (cart.count === 0) {
+     // если корзина пуста, то добавляем товар и увеличиваем счетчик на 1
+     cart.addToCart();
+   } else {
+     // если в корзине уже есть товар, то удаляем его и уменьшаем счетчик на 1
+     cart.removeFromCart();
+   }
+ });
+ 
+ // получаем ссылку на корзину на странице
+ const cartLink = document.querySelector('.link_backet');
+ 
+ // добавляем обработчик события "click" на ссылку корзины
+ cartLink.addEventListener('click', function() {
+   // здесь можно добавить код для открытия страницы с содержимым корзины товаров
+ });

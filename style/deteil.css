@@ -1,39 +1,54 @@
 /* inter-regular - latin */
 @font-face {
-   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-display: swap;
+   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
-   src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
- }
- /* inter-500 - latin */
- @font-face {
-   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'),
+      /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url('../fonts/inter-v12-latin-regular.woff') format('woff');
+   /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+   font-display: swap;
+   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
-   src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
- }
- /* inter-600 - latin */
- @font-face {
-   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'),
+      /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url('../fonts/inter-v12-latin-500.woff') format('woff');
+   /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+   font-display: swap;
+   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
-   src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
- }
- /* inter-700 - latin */
- @font-face {
-   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'),
+      /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url('../fonts/inter-v12-latin-600.woff') format('woff');
+   /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+   font-display: swap;
+   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
-   src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
- }
+   src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
+      /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url('../fonts/inter-v12-latin-700.woff') format('woff');
+   /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 body {
    background-color: bisque;
@@ -46,13 +61,14 @@ body {
    position: relative;
    background-color: #FFE9C9;
 }
-.header{
+
+.header {
    position: relative;
    padding-top: 7px;
 
 }
 
-.header__title{
+.header__title {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -61,7 +77,7 @@ body {
    line-height: 20px;
 }
 
-.header__subtitle{
+.header__subtitle {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -71,7 +87,7 @@ body {
    margin-bottom: 7px;
 }
 
-.header__link{
+.header__link {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -79,15 +95,17 @@ body {
    margin: 0 21px 0 16px;
 }
 
-.header__info{
+.header__info {
    margin-right: 150px;
 }
 
-.adress__title{
-   box-shadow: inset 0 10px 5px -10px rgba(0, 0, 0, 0.1);   border-bottom: 1px solid #CEBEA5;
+.adress__title {
+   box-shadow: inset 0 10px 5px -10px rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid #CEBEA5;
    margin-bottom: 14px;
 }
-.adress__info{
+
+.adress__info {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -99,7 +117,7 @@ body {
    padding-bottom: 10px;
 }
 
-.adress{
+.adress {
    width: 358px;
    display: flex;
    flex-wrap: wrap;
@@ -111,9 +129,9 @@ body {
    margin-bottom: 20px;
 }
 
-.adress__distance{
+.adress__distance {
    margin: 10px 99px 0px 14px;
-   
+
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -122,7 +140,7 @@ body {
    color: #333333;
 }
 
-.adress__time{
+.adress__time {
    margin: 0px 60px 10px 14px;
    color: #757575;
 
@@ -132,7 +150,7 @@ body {
    line-height: 16px;
 }
 
-.adress__change{
+.adress__change {
    color: #24BF0B;
    font-family: 'Inter';
    font-weight: 500;
@@ -140,15 +158,15 @@ body {
    line-height: 18px;
 
    margin: 10.5px 10px 0px 0px;
-   
+
 }
 
-.setting{
+.setting {
    position: relative;
    margin-bottom: 20px;
 }
 
-.btn{
+.btn {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -156,7 +174,8 @@ body {
    margin-left: 16px;
 }
 
-.setting__slogan, .setting__btn{
+.setting__slogan,
+.setting__btn {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -170,7 +189,7 @@ body {
    margin-bottom: 10px;
 }
 
-.adress__desc{
+.adress__desc {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -190,16 +209,17 @@ body {
 }
 
 
-.info__content{
+.info__content {
    border-top: 8px solid #CEBEA5;
    border-bottom: 8px solid #CEBEA5;
    margin-bottom: 10px;
 }
 
-.info{
+.info {
    position: relative;
 }
-.info__text{
+
+.info__text {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -212,17 +232,17 @@ body {
    margin-bottom: 10px;
 }
 
-.info-border{
+.info-border {
    border-bottom: 1px solid #CEBEA5;
 }
 
-.imfo__title-container{
- position: relative;
- margin-bottom: 14px;
- 
+.imfo__title-container {
+   position: relative;
+   margin-bottom: 14px;
+
 }
 
-.info__title{
+.info__title {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -235,14 +255,14 @@ body {
    margin-bottom: 5px;
 }
 
-.info__subtitle{
+.info__subtitle {
    position: relative;
    display: flex;
    justify-content: start;
    margin-left: 16px;
 }
 
-.info__desk{
+.info__desk {
    margin-right: 16px;
 
    font-family: 'Inter';
@@ -254,7 +274,8 @@ body {
    color: #333333;
    margin-left: 16px;
 }
-.info__desk-opacity{
+
+.info__desk-opacity {
    position: relative;
    font-family: 'Inter';
    font-style: normal;
@@ -271,17 +292,17 @@ body {
 
 
 
-.info__content-widht{
+.info__content-widht {
    width: 150px;
 }
 
-.info__desk-flex{
+.info__desk-flex {
    display: flex;
    justify-content: space-between;
    margin-bottom: 14px;
 }
 
-.num__mod{
+.num__mod {
    display: flex;
    justify-content: start;
    margin-left: 20px;
@@ -289,7 +310,7 @@ body {
 }
 
 
-.info__img1{
+.info__img1 {
    background: #EBD7B9;
    border: 1px solid #CEBEA5;
    border-radius: 16px;
@@ -299,7 +320,8 @@ body {
 
    padding: 12.5px 22px;
 }
-.num{
+
+.num {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -307,7 +329,8 @@ body {
    line-height: 26px;
    margin-right: 19px;
 }
-.info__img2{
+
+.info__img2 {
    background: #EBD7B9;
    border: 1px solid #CEBEA5;
    border-radius: 16px;
@@ -315,13 +338,13 @@ body {
    padding: 5px 22px;
 }
 
-.list{
+.list {
    display: flex;
    justify-content: space-between;
    margin-bottom: 18.5px;
 }
 
-.info__image{
+.info__image {
    width: 100px;
    height: 100px;
    border-radius: 12px;
@@ -329,7 +352,7 @@ body {
 }
 
 
-.popular{
+.popular {
    display: flex;
    justify-content: space-between;
    margin-right: 16px;
@@ -337,7 +360,7 @@ body {
    margin-bottom: 10px;
 }
 
-.popular__title{
+.popular__title {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -346,7 +369,7 @@ body {
    color: #333333;
 }
 
-.popular__list{
+.popular__list {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -355,7 +378,7 @@ body {
    color: #24BF0B;
 }
 
-.list__title{
+.list__title {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -367,10 +390,10 @@ body {
 
    margin-left: 12px;
 
-   margin-bottom: 4px;  
+   margin-bottom: 4px;
 }
 
-.btn__rec{
+.btn__rec {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -387,11 +410,11 @@ body {
    margin-bottom: 10px;
 }
 
-.info__desk__margin{
+.info__desk__margin {
    margin-bottom: 10px;
 }
 
-.list__rec{
+.list__rec {
 
    width: 250px;
    display: flex;
@@ -402,28 +425,29 @@ body {
 
    margin-left: 16px;
 }
-.info__image-scale{
+
+.info__image-scale {
    width: 100px;
    height: 100px;
    border-radius: 12px;
    scale: .8;
 }
 
-.scroll{
+.scroll {
    display: flex;
    justify-content: start;
    overflow-x: scroll;
 }
 
-.scroll:last-child{
+.scroll:last-child {
    margin-right: 16px;
 }
 
-.scroll::-webkit-scrollbar{
+.scroll::-webkit-scrollbar {
    display: none;
 }
 
-.dls{
+.dls {
    margin-top: 22px;
    background: #FFE9C9;
    border: 1px solid #CEBEA5;
@@ -436,7 +460,7 @@ body {
    margin-bottom: 43px;
 }
 
-.dls__title{
+.dls__title {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -449,12 +473,12 @@ body {
 
 }
 
-.dls__info{
+.dls__info {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
    font-size: 13px;
-   line-height: 18px; 
+   line-height: 18px;
    color: #24BF0B;
 
    background: #EBD7B9;
@@ -466,43 +490,43 @@ body {
 }
 
 
-.chek__title{
+.chek__title {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 26px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 26px;
 
-margin-left: 16px;
-margin-bottom: 27px;
+   margin-left: 16px;
+   margin-bottom: 27px;
 }
 
-.chek__btn{
+.chek__btn {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #24BF0B;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #24BF0B;
 
-padding: 11px 170px 11px 51px;
+   padding: 11px 170px 11px 51px;
 
-background: url(../image/chek/1.svg) 19px 50% no-repeat, url(../image/chek/2.svg) 327px 50% no-repeat ;
-border: 1px solid #CEBEA5;
-border-radius: 100px;
-background-color: #EBD7B9;
-margin-bottom: 16px;
+   background: url(../image/chek/1.svg) 19px 50% no-repeat, url(../image/chek/2.svg) 327px 50% no-repeat;
+   border: 1px solid #CEBEA5;
+   border-radius: 100px;
+   background-color: #EBD7B9;
+   margin-bottom: 16px;
 }
 
 
 
-.pryse__info{
+.pryse__info {
    position: relative;
    display: flex;
    justify-content: right;
 }
 
-.pryse__info-opacity{
+.pryse__info-opacity {
    text-decoration-line: line-through;
    font-family: 'Inter';
    font-style: normal;
@@ -515,7 +539,7 @@ margin-bottom: 16px;
    margin-right: 8px;
 }
 
-.pryse__info-def{
+.pryse__info-def {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -524,16 +548,16 @@ margin-bottom: 16px;
    color: #333333;
 }
 
-.pryse__title{
+.pryse__title {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #333333;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #333333;
 }
 
-.pryse__title-bold{
+.pryse__title-bold {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 600;
@@ -541,13 +565,13 @@ color: #333333;
    color: #333333;
 }
 
-.pryse{
+.pryse {
    display: flex;
    justify-content: space-between;
    margin-bottom: 20px;
 }
 
-.dls__pryse{
+.dls__pryse {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 500;
@@ -557,50 +581,53 @@ color: #333333;
    margin-bottom: 27px;
 }
 
-.btn__ketch{
+.btn__ketch {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
 
-padding: 6px 38px 6px 42px;
+   padding: 6px 38px 6px 42px;
 
-background: url(../image/chek/5.svg) 13px 50% no-repeat, url(../image/chek/4.svg) 148px 50% no-repeat ;
+   background: url(../image/chek/5.svg) 13px 50% no-repeat, url(../image/chek/4.svg) 148px 50% no-repeat;
 
-background-color: #EBD7B9;;
-border: 1px solid #CEBEA5;
-border-radius: 16px;
-margin-bottom: 8px;
+   background-color: #EBD7B9;
+   ;
+   border: 1px solid #CEBEA5;
+   border-radius: 16px;
+   margin-bottom: 8px;
 }
 
-.econom{
+.econom {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 11px;
-line-height: 16px;
-color: #24BF0B;
-margin-bottom: 8px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 11px;
+   line-height: 16px;
+   color: #24BF0B;
+   margin-bottom: 8px;
 }
 
-.play{
+.play {
    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-color: #FFE9C9;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FFE9C9;
 
-background: #24BF0B;
-border-radius: 100px;
-padding: 12px 118px;
+   background: #24BF0B;
+   border-radius: 100px;
+   padding: 12px 118px;
 
 }
-.a{
+
+.a {
    text-decoration: none;
 }
-.plays{
+
+.plays {
    margin-left: 16px;
    margin-right: 16px;
    padding-bottom: 25px;

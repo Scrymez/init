@@ -6,6 +6,17 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>INIT</title>
+
+   <link rel="apple-touch-icon" sizes="180x180" href="/favico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favico/favicon-16x16.png">
+<link rel="manifest" href="/favico/site.webmanifest">
+<link rel="mask-icon" href="/favico/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favico/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favico/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
    <link rel="stylesheet" href="./style/setting.css">
    <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -14,6 +25,9 @@
    <div class="container">
 
       <header class="header">
+         <div class="header__logo">
+            <h1 class="h1"><a href="#!" class="logo__link">INIT</a></h1>
+         </div>
          <nav class="nav">
             <form action="" class="search"> <!-- SEARCH -->
                <input type="text" class="input__search">
@@ -30,6 +44,8 @@
                      <li class="li">Элемент</li>
                      <li class="li">Элемент</li>
                      <li class="li">Элемент</li>
+                     <li class="li">Элемент</li>
+                    
                      <!-- Добавьте остальные элементы списка -->
                   </ul>
                </div>
@@ -38,7 +54,7 @@
       </header>
 
       <div class="link_backet">
-         <a href="./detail.html" class="basket">
+         <a href="./detail.html" class="basket"><span class="cart-count">0</span>
             <div class="backet-border">
                <img src="./image/icon/kart.svg" alt="img" class="basket__ico">
             </div>
@@ -46,6 +62,19 @@
 
       </div>
 
+      <div class="products_content">
+         <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
       <div class="product-card">
          <img src="./image/section/1.png" alt="Product Image" class="product-image">
          <div class="product-details">
@@ -54,11 +83,10 @@
             <p class="product-price">Цена: 150p</p>
             <div class="link__like">
                <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
-               <img src="./image/icon/360.svg" alt="img" class="back__add like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
             </div>
          </div>
       </div>
-
       <div class="product-card">
          <img src="./image/section/1.png" alt="Product Image" class="product-image">
          <div class="product-details">
@@ -67,11 +95,10 @@
             <p class="product-price">Цена: 150p</p>
             <div class="link__like">
                <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
-               <img src="./image/icon/360.svg" alt="img" class="back__add like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
             </div>
          </div>
       </div>
-
       <div class="product-card">
          <img src="./image/section/1.png" alt="Product Image" class="product-image">
          <div class="product-details">
@@ -80,11 +107,10 @@
             <p class="product-price">Цена: 150p</p>
             <div class="link__like">
                <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
-               <img src="./image/icon/360.svg" alt="img" class="back__add like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
             </div>
          </div>
       </div>
-
       <div class="product-card">
          <img src="./image/section/1.png" alt="Product Image" class="product-image">
          <div class="product-details">
@@ -93,11 +119,143 @@
             <p class="product-price">Цена: 150p</p>
             <div class="link__like">
                <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
-               <img src="./image/icon/360.svg" alt="img" class="back__add like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
             </div>
          </div>
       </div>
-
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      <div class="product-card">
+         <img src="./image/section/1.png" alt="Product Image" class="product-image">
+         <div class="product-details">
+            <h2 class="product-title">Bottega Restorante</h2>
+            <p class="product-description">Описание продукта.</p>
+            <p class="product-price">Цена: 150p</p>
+            <div class="link__like">
+               <img src="./image/icon/like.svg" alt="img" class="add-to-cart like-active">
+               <img src="./image/icon/360.svg" alt="img" class="back__add">
+            </div>
+         </div>
+      </div>
+      </div>
       
       </div>
    </div>
